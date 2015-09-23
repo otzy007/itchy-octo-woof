@@ -3,6 +3,7 @@
 
 The type is checked when setting a new value and in case the type is not right it will raise a TypeError exception.
 
+I took this approach in order to maintain most of the same behaviour `attr_accessor` does in order to keep things as usual.
 ### Example Usage
 ```
 class Thing
